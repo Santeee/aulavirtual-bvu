@@ -1,28 +1,20 @@
-# Docker com PHP 8
+# BVU's e-larning platform
 
-Caso não tenha é preciso instalar o docker e docker-compose.
+Docker and Docker-compose needed.
 
 - [Instalar Docker](https://docs.docker.com/install/)
 - [Instalar Docker Compose](https://docs.docker.com/compose/install/)
 
-Depois de instalar basta rodar no terminal na raiz aonde está o arquivo `docker-compose.yml` o seguinte comando.
+Ejecutar el siguiente comando
 
 ```bash
 docker-compose up -d
 ```
 
-**-d** significa que será executado em background e seu terminal não irá ficar travado e para matar o processo basta
-apertar `CTRL + C` no windows ou `Command + C` no mac.
-
-## Images pré configuradas
+## Imagenes pre-configuradas
 
 - [Nginx](https://www.nginx.com/)
-- [Apache2](https://httpd.apache.org/)
 - [MySQL](https://www.mysql.com/)
-- [MariaDB](https://mariadb.com/)
-- [PhpMyAdmin](https://www.phpmyadmin.net/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Redis](https://redis.io/)
 - [PHP 8 FPM](https://php.net/)
   - [PHP Modules]
     - bcmath
