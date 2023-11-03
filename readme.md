@@ -1,19 +1,19 @@
 # BVU's e-larning platform
 
-Proyeco basado en Moodle.
+Moddle based project.
 
 Docker and Docker-compose needed.
 
 - [Instalar Docker](https://docs.docker.com/install/)
 - [Instalar Docker Compose](https://docs.docker.com/compose/install/)
 
-Ejecutar el siguiente comando
+on docker-compose.yml's folder run
 
 ```bash
 docker-compose up -d
 ```
 
-## Imagenes pre-configuradas
+## Images configured
 
 - [Nginx](https://www.nginx.com/)
 - [MySQL](https://www.mysql.com/)
