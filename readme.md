@@ -1,5 +1,7 @@
 # BVU's e-larning platform
 
+Proyeco basado en Moodle.
+
 Docker and Docker-compose needed.
 
 - [Instalar Docker](https://docs.docker.com/install/)
